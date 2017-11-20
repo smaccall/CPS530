@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8">
+<head>
+<title>Page 2</title>
+link(rel='stylesheet' href='/stylesheets/mystyle.css')
+</head>
+
+<div class="box">
+<body>
+<h1>How to Install and Host Node.js</h1>
+
+<hr>
+
+<ol>
+<li><p> Go to <a href="http://nodejs.org">http://nodejs.org </a>and download a suitable version of the framework for your computer. Also, to check if the npm package has been installed, go on Windows Command Prompt or Terminal and type "npm -v". This will give you the current version of the npm.</p>
+img(src="/images/first.png" alt="Node.js Homepage" width="900" height="700")
+<br>
+img(src="images/second.png" alt="Checking Versions")
+</li>
+
+<li><p> Go to <a href="https://devcenter.heroku.com">https://devcenter.heroku.com </a>, create an account and install Heroku Command Line (CLI).</p>
+img(src="images/third.png" alt="Heroku homepage" width="900" height="700")
+</li>
+
+<li><p>To host your files: You have to clone your files from <a href="https://github.com/"> Github</a> and download package.json (a file used by Node.js).<p>
+img(src="images/fourth.png" alt="Clone from git")
+</li>
+
+<li><p>Next, create an application on Heroku, which also creates a git remote associated with your git repository, and deploy or push your code/file into git.</p>
+img(src="images/fifth.png" alt="Create app")
+<br>
+img(src="images/sixth.png" alt="Push files/code")
+</li>
+
+<li><p>To ensure the application is running, type "heroku ps:scale web=1" into the Heroku Command Line. This checks if there is at least one instance running.</p>
+</li>
+
+<li><p>You can easily visit the application at the URL created by its' application name. Or you can open it through Heroku by: "heroku open" in the Heroku Command Line.</p>
+</li>
+
+<li><p>Additionally, the application can be run locally through Heroku Command Line by: "heroku local web" Then, go to <a href="http://localhost:8080">http://localhost:8080</a> on any web browser and the application will now run locally. To stop it all you have to do is press: "Ctrl+C".</p>
+img(src="images/seventh.png" alt="Local hosting")
+</li>
+</ol>
+
+</body>
+</div>
+</html>

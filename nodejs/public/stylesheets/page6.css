@@ -1,0 +1,45 @@
+html {
+    background: url(http://slc.blog.ryerson.ca/files/2015/08/Screen-Shot-2015-08-13-at-1.50.05-AM-640x427.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.col-3 {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid grey;
+    background-color: #f4f4f4;
+}
+
+.back {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 650px;
+    height: 1900px;
+    border: 2px solid slategrey;
+    background-color: grey; }
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
